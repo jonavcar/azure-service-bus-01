@@ -9,7 +9,7 @@ public class Main {
 
     ServiceBusSender sender = new ServiceBusSender(connectionString, queueName);
 
-    String message = "837463337911:ACTIVE";
+    String message = "1010101010:INACTIVE";
 
     sender.sendMessage(message);
 
